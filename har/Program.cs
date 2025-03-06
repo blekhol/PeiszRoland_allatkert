@@ -2,9 +2,15 @@
 {
     internal class Program
     {
+        static string map = "";
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Green;
+            
+
+            Console.ReadKey();
         }
     }
 }
