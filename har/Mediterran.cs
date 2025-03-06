@@ -13,7 +13,7 @@ namespace har
         private bool haszonallat;
         private string szin;
 
-        public Mediterran(string nev, int sebesseg, string legelterjedtebborszag, bool haszonallat, string szin)
+        public Mediterran(int sebesseg, string nev, string legelterjedtebborszag, bool haszonallat, string szin)
         {
             this.legelterjedtebborszag = legelterjedtebborszag;
             this.haszonallat = haszonallat;
